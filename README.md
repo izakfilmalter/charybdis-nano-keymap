@@ -72,3 +72,11 @@ via/charybdis_nano.layout.json
 ```c
 #define TAPPING_TERM 150
 ```
+
+## Trackball Scroll
+
+Vertical drag-scroll is reversed:
+
+```c
+#define CHARYBDIS_DRAGSCROLL_REVERSE_Y
+```

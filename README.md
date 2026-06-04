@@ -87,5 +87,6 @@ The keymap forces RGB Matrix on and sets rainbow wave at boot:
 
 ```c
 rgb_matrix_enable_noeeprom();
+rgb_matrix_sethsv_noeeprom(0, UINT8_MAX, 128);
 rgb_matrix_mode_noeeprom(RGB_MATRIX_CYCLE_LEFT_RIGHT);
 ```

@@ -17,6 +17,11 @@ enum charybdis_keymap_layers {
 #define SFT_SPC SFT_T(KC_SPC)
 #define GUI_ENT GUI_T(KC_ENT)
 
+void keyboard_post_init_user(void) {
+    rgb_matrix_enable_noeeprom();
+    rgb_matrix_mode_noeeprom(RGB_MATRIX_CYCLE_LEFT_RIGHT);
+}
+
 // clang-format off
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [LAYER_BASE] = LAYOUT(

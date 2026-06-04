@@ -13,4 +13,5 @@
 #define TAPPING_TERM 150
 
 // Reverse vertical drag-scroll direction for the trackball.
+#define CHARYBDIS_DRAGSCROLL_REVERSE_X
 #define CHARYBDIS_DRAGSCROLL_REVERSE_Y

@@ -75,9 +75,10 @@ via/charybdis_nano.layout.json
 
 ## Trackball Scroll
 
-Vertical drag-scroll is reversed:
+Horizontal and vertical drag-scroll are reversed:
 
 ```c
+#define CHARYBDIS_DRAGSCROLL_REVERSE_X
 #define CHARYBDIS_DRAGSCROLL_REVERSE_Y
 ```
 
